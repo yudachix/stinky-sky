@@ -1,0 +1,49 @@
+{
+  "author": "yudachix",
+  "bugs": {
+    "url": "https://github.com/yudachix/stinky-sky/issues"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
+    "@mui/material-nextjs": "^5.16.6",
+    "canvas-filters": "^1.0.1",
+    "color": "^4.2.3",
+    "color-diff": "^1.4.0",
+    "mediancut": "^2.1.12",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-color": "^2.19.3"
+  },
+  "description": "Stinky, stinky sky.",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/color": "^3.0.6",
+    "@types/color-diff": "^1.2.5",
+    "@types/node": "^22.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-color": "^3.0.12",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.5.4",
+    "worker-loader": "^3.0.8"
+  },
+  "homepage": "https://github.com/yudachix/stinky-sky#readme",
+  "keywords": ["stinky"],
+  "license": "MIT",
+  "name": "stinky-sky",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudachix/stinky-sky.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "cross-env NEXT_PUBLIC_BASE_URL=\"http://localhost:3000/stinky-sky/\" next dev",
+    "prod": "cross-env NEXT_PUBLIC_BASE_URL=\"https://yudachix.github.io/stinky-sky/\" && bun run build"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
