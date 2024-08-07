@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         type: "image/png",
-        url: "/stinky-sky/images/ogp-image-1200x630.png",
+        url: "/images/ogp-image-1200x630.png",
       },
     ],
   },
