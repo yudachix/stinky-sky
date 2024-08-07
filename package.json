@@ -42,7 +42,7 @@
   "scripts": {
     "build": "next build",
     "dev": "cross-env NEXT_PUBLIC_BASE_URL=\"http://localhost:3000/stinky-sky/\" next dev",
-    "prod": "cross-env NEXT_PUBLIC_BASE_URL=\"https://yudachix.github.io/stinky-sky/\" && bun run build"
+    "prod": "cross-env NEXT_PUBLIC_BASE_URL=\"https://yudachix.github.io/stinky-sky/\" bun run build"
   },
   "type": "module",
   "version": "1.0.0"
